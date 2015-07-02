@@ -131,7 +131,7 @@ class NeatoNode:
             # publish everything
             self.odomBroadcaster.sendTransform( (self.x, self.y, 0), (quaternion.x, quaternion.y, quaternion.z, quaternion.w),
                 then, "base_link", "odom" )
-            # self.scanPub.publish(scan)
+            self.scanPub.publish(scan)
             self.odomPub.publish(odom)
 
             # wait, then do it again
