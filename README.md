@@ -24,6 +24,13 @@ You can check this out into your catkin workspace as follows:
         connected to a Neato XV Signature
 
 ## Yocto bitbake Recipes 
+Place the bitbake recipes in your Yocto build environment:
+```
+william@ginkgo:~/Documents/yocto/poky/meta-gumstix-extras/recipes-ros/neato-robot$ ls
+neato-2dnav.bb  neato-driver.bb  neato-node.bb  neato-robot.bb  neato-robot.inc
+```
+
+
 neato-robot.inc (change ```SRCREV``` to match latest commit)
 ```
 SRC_URI = "https://github.com/wphan/${ROS_SPN}/archive/${SRCREV}.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
