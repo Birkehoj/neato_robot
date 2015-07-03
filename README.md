@@ -23,7 +23,7 @@ You can check this out into your catkin workspace as follows:
  * ultimately ran on with meta-ros layer running on a Gumstix Overo COM on a Tobi expansion board
         connected to a Neato XV Signature
 
-## Yocto bitbake Recipes 
+### Yocto bitbake Recipes 
 Place the bitbake recipes in your Yocto build environment:
 ```
 user@HOSTNAME:~/Documents/yocto/poky/meta-gumstix-extras/recipes-ros/neato-robot$ ls
