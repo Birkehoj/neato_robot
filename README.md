@@ -31,7 +31,7 @@ neato-2dnav.bb  neato-driver.bb  neato-node.bb  neato-robot.bb  neato-robot.inc
 ```
 
 
-# neato-robot.inc (change ```SRCREV``` to match latest commit)
+##### neato-robot.inc (change ```SRCREV``` to match latest commit)
 ```
 SRC_URI = "https://github.com/wphan/${ROS_SPN}/archive/${SRCREV}.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
@@ -47,7 +47,7 @@ ROS_SPN = "neato_robot"
 
 ```
 
-neato-robot.bb
+##### neato-robot.bb
 ```
 DESCRIPTION = "Metapackage for drivers for the Neato XV-11 robot."
 SECTION = "devel"
@@ -59,7 +59,7 @@ DEPENDS = "neato-driver neato-node neato-2dnav"
 require neato-robot.inc
 ```
 
-neato-2dnav.bb
+##### neato-2dnav.bb
 ```
 DESCRIPTION = "This package contains configuration and launch files for using the navigation stack with the Neato XV-11 robot."
 SECTION = "devel"
@@ -72,7 +72,7 @@ RDEPENDS_${PN} = "neato-node"
 
 ```
 
-neato-driver.bb
+##### neato-driver.bb
 ```
 DESCRIPTION = "This is a generic drivers for the Neato XV-11 Robotic Vacuum."
 SECTION = "devel"
@@ -84,7 +84,7 @@ RDEPENDS_${PN} = "python-pyserial"
 require neato-robot.inc
 ```
 
-neato-node.bb
+##### neato-node.bb
 ```
 DESCRIPTION = "A node wrapper for the neato_driver package."
 SECTION = "devel"
