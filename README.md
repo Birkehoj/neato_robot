@@ -19,6 +19,6 @@ You can check this out into your catkin workspace as follows:
 
 ## Changes in wphan's fork
 
- * modified some files to work in a Yocto built Linux image
+ * modified some files(neato.py and neato_driver.py) to work in a Yocto built Linux image
  * tested with meta-ros layer running on a Gumstix Overo COM on a Tobi expansion board
         connected to a Neato XV Signature
