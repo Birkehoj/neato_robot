@@ -31,7 +31,7 @@ neato-2dnav.bb  neato-driver.bb  neato-node.bb  neato-robot.bb  neato-robot.inc
 ```
 
 
-neato-robot.inc (change ```SRCREV``` to match latest commit)
+# neato-robot.inc (change ```SRCREV``` to match latest commit)
 ```
 SRC_URI = "https://github.com/wphan/${ROS_SPN}/archive/${SRCREV}.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 
