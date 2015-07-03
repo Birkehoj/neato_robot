@@ -26,7 +26,7 @@ You can check this out into your catkin workspace as follows:
 ## Yocto bitbake Recipes 
 Place the bitbake recipes in your Yocto build environment:
 ```
-william@ginkgo:~/Documents/yocto/poky/meta-gumstix-extras/recipes-ros/neato-robot$ ls
+user@HOSTNAME:~/Documents/yocto/poky/meta-gumstix-extras/recipes-ros/neato-robot$ ls
 neato-2dnav.bb  neato-driver.bb  neato-node.bb  neato-robot.bb  neato-robot.inc
 ```
 
