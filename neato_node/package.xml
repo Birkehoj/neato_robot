@@ -16,5 +16,5 @@
   <run_depend>sensor_msgs</run_depend>
   <run_depend>geometry_msgs</run_depend>
   <run_depend>nav_msgs</run_depend>
-  <run_depend>tf</run_depend>
+  <run_depend>tf2</run_depend>
 </package>
