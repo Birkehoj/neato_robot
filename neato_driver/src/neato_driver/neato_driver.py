@@ -34,7 +34,7 @@ __author__ = "ferguson@cs.albany.edu (Michael Ferguson)"
 
 import serial
 
-BASE_WIDTH = 248    # millimeters
+BASE_WIDTH = 245    # millimeters
 MAX_SPEED = 300     # millimeters/second
 
 """

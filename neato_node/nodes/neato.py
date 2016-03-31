@@ -75,7 +75,7 @@ class NeatoNode:
         scan.angle_min = -6.26
         scan.angle_max = 6.26
         scan.angle_increment = 0.017437326
-        scan.range_min = -5.0
+        scan.range_min = 0.02
         scan.range_max = 5.0
         odom = Odometry(header=rospy.Header(frame_id="odom"), child_frame_id='base_link')
     
